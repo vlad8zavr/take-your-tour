@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Take Your Tour</title>
+
+	<!-- Bootstrap grid css -->
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+	<!-- Google fonts -->
+	<link rel="stylesheet" 
+		href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&amp;subset=cyrillic">
+
+	<!-- animate.css 
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	-->
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- Custom style -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	
+	<!-- HEADER -->
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center header-row">
+
+				<div class="col-3 header__logo">
+					<img src="img/logo.png" alt="Take Your Tour" class="header__logo">
+				</div>
+				<!-- /.col-3 -->
+
+				<div class="col-9">
+
+					<!-- ORDINARY MENU -->
+					<div class="header__menu hidden-mobile">
+						<ul class="header__menu__list">
+							<li><a class="smoothscroll" href="#offers">Best offers</a></li>
+							<li><a class="smoothscroll" href="#destinations">Popular</a></li>
+							<li><a class="smoothscroll" href="#blog">Blog</a></li>
+							<li><a href="#">Log in</a></li>
+							<li><button class="header__menu__list__register button">Register</button></li>
+						</ul>
+					</div>
+					<!-- /.header__menu -->
+
+					<!-- MOBILE MENU -->
+					<div class="mobile show-mobile">
+						<a href="#menu" class="menu-link">
+							<span class="menu-span"></span>
+						</a>
+					</div>
+					<!-- /.mobile show-mobile -->
+
+				</div>
+				<!-- /.col-9 -->
+
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</header>
+	<!-- /.header -->
+
+
+	<!-- MENU FIELD -->
+	<div class="menu hidden-desktop">
+		<ul>
+			<li><a href="#offers">Best offers</a></li>
+			<li><a href="#destinations">Popular</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#">Log in</a></li>
+			<li><a href="#">Register</a></li>
+		</ul>
+	</div>
+	<!-- /.menu -->
+
+
+	<!-- MAIN -->
+	<section class="main">
+		<div class="container">
+			<div class="main__header">
+				<h1>Explore the world</h1>
+			</div>
+			<!-- /.main__header -->
+			<div class="main__subheader">
+				Book incredible things to do around the world.
+			</div>
+			<!-- /.main__subheader -->
+			<div class="main__form">
+				<form action="#" class="form">
+
+					<input class="form-input__text input" type="text" placeholder="Where are you going?">
+					<input class="form-input__from input" type="text" placeholder="from">
+					<input class="form-input__to input" type="text" placeholder="to">
+					<button type="submit" class="form__button button">Search</button>
+				</form>
+			</div>
+			<!-- /.main__form -->
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.main -->
+
+
+	<!-- BEST OFFERS -->
+	<section class="offers" id="offers">
+		<div class="container">
+
+			<h2 class="section-title">
+				Best offers
+			</h2>
+			<!-- /.section-title -->
+
+			<div class="row">
+
+				<div class="col-md-6 col-lg-3 col-outline">
+					<div class="offers-item">
+						<!-- <img class="offers-item__img" src="img/offers/offer-1.jpg" alt="Arc de Triomphe"> -->
+						<div class="offers-item__img-1"></div>
+						<div class="offers-item__header">
+							Skip-the-Line Arc de Triomphe Rooftop Tickets
+						</div>
+						<div class="offers-item__destination">
+							Paris, France
+						</div>
+
+						<div class="offers-item__info">
+							
+							<div class="rating">
+
+								<div class="stars">
+								    <!-- ... Полностью зарисованная иконка ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+
+								    <!-- ... Иконка зарисованная на 60% ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 60%;"></i>
+								    </i>
+								</div>
+								<!-- /.stars -->
+
+								<div class="reviews">
+									1231 Reviews
+								</div>
+								<!-- /.reviews -->
+							</div>
+							<!-- /.rating -->
+
+							<div class="price">
+								<div class="price__text">
+									From
+								</div>
+								<!-- /.text -->
+								<div class="price__sum">
+									&euro; 15
+								</div>
+								<!-- /.sum -->
+							</div>
+							<!-- /.price -->
+
+						</div>
+						<!-- /.offer-item__info -->
+
+					</div>
+					<!-- /.offers__item -->
+				</div>
+				<!-- /.col-6 col-md-3 -->
+
+				<div class="col-md-6 col-lg-3 col-outline">
+					<div class="offers-item">
+						<!-- <img class="offers-item__img" src="img/offers/offer-2.jpg" alt="Seville Cathedral and Giralda"> -->
+						<div class="offers-item__img-2"></div>
+						<div class="offers-item__header">
+							Skip-the-Line Seville Cathedral and Giralda Tickets
+						</div>
+						<div class="offers-item__destination">
+							Seville, Spain
+						</div>
+
+						<div class="offers-item__info">
+							
+							<div class="rating">
+
+								<div class="stars">
+								    <!-- ... Полностью зарисованная иконка ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+
+								    <!-- ... Иконка зарисованная на 60% ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 60%;"></i>
+								    </i>
+								</div>
+								<!-- /.stars -->
+
+								<div class="reviews">
+									1926 Reviews
+								</div>
+								<!-- /.reviews -->
+							</div>
+							<!-- /.rating -->
+
+							<div class="price">
+								<div class="price__text">
+									From
+								</div>
+								<!-- /.text -->
+								<div class="price__sum">
+									&euro; 18
+								</div>
+								<!-- /.sum -->
+							</div>
+							<!-- /.price -->
+
+						</div>
+						<!-- /.offer-item__info -->
+
+					</div>
+					<!-- /.offers__item -->
+				</div>
+				<!-- /.col-6 col-md-3 -->
+
+				<div class="col-md-6 col-lg-3 col-outline">
+					<div class="offers-item">
+						<!-- <img class="offers-item__img" src="img/offers/offer-3.jpg" alt="Neuschwanstein & Linderhof Castles"> -->
+						<div class="offers-item__img-3"></div>
+						<div class="offers-item__header">
+							Day Trip to Neuschwanstein & Linderhof Castles
+						</div>
+						<div class="offers-item__destination">
+							Munich, Germany
+						</div>
+
+						<div class="offers-item__info">
+							
+							<div class="rating">
+
+								<div class="stars">
+								    <!-- ... Полностью зарисованная иконка ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+
+								    <!-- ... Иконка зарисованная на 60% ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 60%;"></i>
+								    </i>
+								</div>
+								<!-- /.stars -->
+
+								<div class="reviews">
+									847 Reviews
+								</div>
+								<!-- /.reviews -->
+							</div>
+							<!-- /.rating -->
+
+							<div class="price">
+								<div class="price__text">
+									From
+								</div>
+								<!-- /.text -->
+								<div class="price__sum">
+									&euro; 52
+								</div>
+								<!-- /.sum -->
+							</div>
+							<!-- /.price -->
+
+						</div>
+						<!-- /.offer-item__info -->
+
+					</div>
+					<!-- /.offers__item -->
+				</div>
+				<!-- /.col-6 col-md-3 -->
+
+				<div class="col-md-6 col-lg-3 col-outline">
+					<div class="offers-item">
+						<!-- <img class="offers-item__img" src="img/offers/offer-4.jpg" alt="Colosseum"> -->
+						<div class="offers-item__img-4"></div>
+						<div class="offers-item__header">
+							Colosseum, Roman Forum and Palatine Hill Package
+						</div>
+						<div class="offers-item__destination">
+							Rome, Italy
+						</div>
+
+						<div class="offers-item__info">
+							
+							<div class="rating">
+
+								<div class="stars">
+								    <!-- ... Полностью зарисованная иконка ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 100%;"></i>
+								    </i>
+
+								    <!-- ... Иконка зарисованная на 60% ... -->
+								    <i class="fas fa-star stars__out">
+								        <i class="fas fa-star stars__in" style="width: 60%;"></i>
+								    </i>
+								</div>
+								<!-- /.stars -->
+
+								<div class="reviews">
+									1532 Reviews
+								</div>
+								<!-- /.reviews -->
+							</div>
+							<!-- /.rating -->
+
+							<div class="price">
+								<div class="price__text">
+									From
+								</div>
+								<!-- /.text -->
+								<div class="price__sum">
+									&euro; 20
+								</div>
+								<!-- /.sum -->
+							</div>
+							<!-- /.price -->
+
+						</div>
+						<!-- /.offer-item__info -->
+
+					</div>
+					<!-- /.offers__item -->
+				</div>
+				<!-- /.col-6 col-md-3 -->
+
+			</div>
+			<!-- /.row -->
+			
+			<div class="offers-button">
+				<button class="offers-button__btn button">
+					Show more offers
+				</button>
+			</div>
+			<!-- /.offers-button -->
+
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.offers -->
+
+
+	<!-- POPULAR DESTINATIONS -->
+	<section class="destinations" id="destinations">
+		<div class="container">
+			<h2 class="section-title">Popular destinations</h2>
+			<!-- /.section-title -->
+			<div class="row">
+
+				<div class="col-md-12 col-lg-6">
+
+					<div class="destinations-item item-yellow">
+						<!-- <img class="destinations-item__img" src="img/destinations/destination-1.jpg" alt=""> -->
+						<!-- /.destinations-item__img -->
+						<div class="dest-header item-yellow__header">
+							Rome
+						</div>
+						<!-- /.destinations-item__header -->
+					</div>
+					<!-- /.destinations-item -->
+
+				</div>
+				<!-- /.col-md-12 col-lg-6 -->
+
+				<div class="col-md-12 col-lg-6">
+
+					<div class="destinations-item item-violet">
+						<!-- <img class="destinations-item__img" src="img/destinations/destination-2.jpg" alt=""> -->
+						<!-- /.destinations-item__img -->
+						<div class="dest-header item-violet__header">
+							Lisbon
+						</div>
+						<!-- /.destinations-item__header -->
+					</div>
+					<!-- /.destinations-item -->
+
+				</div>
+				<!-- /.col-md-12 col-lg-6 -->
+
+				<div class="col-md-12 col-lg-6">
+					
+					<div class="destinations-item item-blue">
+						<!-- <img class="destinations-item__img" src="img/destinations/destination-3.jpg" alt=""> -->
+						<!-- /.destinations-item__img -->
+						<div class="dest-header item-blue__header">
+							Paris
+						</div>
+						<!-- /.destinations-item__header -->
+					</div>
+					<!-- /.destinations-item -->
+
+				</div>
+				<!-- /.col-md-12 col-lg-6 -->
+
+				<div class="col-md-12 col-lg-6">
+
+					<div class="destinations-item item-red">
+						<!-- <img class="destinations-item__img" src="img/destinations/destination-4.jpg" alt=""> -->
+						<!-- /.destinations-item__img -->
+						<div class="dest-header item-red__header">
+							Madrid
+						</div>
+						<!-- /.destinations-item__header -->
+					</div>
+					<!-- /.destinations-item -->
+
+				</div>
+				<!-- /.col-md-12 col-lg-6 -->
+
+			</div>
+			<!-- /.row -->
+
+			<div class="dest-button">
+				<button class="dest-button__btn button">
+					Show more destinations
+				</button>
+			</div>
+			<!-- /.offers-button -->
+
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.destinations -->
+
+
+	<!-- BLOG -->
+	<section class="blog" id="blog">
+		<div class="container">
+			<h2 class="section-title">Blog</h2>
+			<!-- /.section-title -->
+			<div class="blog__text">
+				Explore our blog for best travel tips and fun facts about different countries and sights.
+			</div>
+			<!-- /.blog__text -->
+
+			<div class="blog-button">
+				<button class="blog-button__btn button">
+					Read our blog
+				</button>
+			</div>
+			<!-- /.blog__btn -->
+
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.blog -->
+
+
+	<!-- KEEP IN TOUCH -->
+	<section class="mailing">
+		<div class="container">
+			<h2 class="section-title">Keep in touch</h2>
+			<!-- /.section-title -->
+			<div class="mailing__text">
+				Subscribe to News and Special Offers
+			</div>
+			<!-- /.mailing__text -->
+
+			<div class="mailing-wrap">
+				<div class="mailing__form">
+					<form action="#" class="form">
+						<input class="input" type="text" placeholder="Email address">
+						<button type="submit" class="form__button button">Subscribe</button>
+					</form>
+				</div>
+			</div>
+			<!-- /.mailing-wrap -->
+			
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.mailing -->
+
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-6 col-md-3">
+					<div class="footer-item">
+						<div class="footer-item__header">
+							Company
+						</div>
+						<!-- /.footer__header -->
+						<div class="footer-item__text">
+							<a href="#">About us</a>
+						</div>
+						<!-- /.footer__text -->
+						<div class="footer-item__text">
+							<a href="#">Blog</a>
+						</div>
+						<!-- /.footer__text -->
+					</div>
+					<!-- /.footer-item -->
+				</div>
+				<!-- /.col-sm-6col-md-3 -->
+
+				<div class="col-6 col-md-3">
+					<div class="footer-item">
+						<div class="footer-item__header">
+							Support
+						</div>
+						<!-- /.footer__header -->
+						<div class="footer-item__text">
+							<a href="#">Contact</a>
+						</div>
+						<!-- /.footer__text -->
+						<div class="footer-item__text">
+							<a href="#">Privacy Policy</a>
+						</div>
+						<!-- /.footer__text -->
+						<div class="footer-item__text">
+							<a href="#">Terms of Use</a>
+						</div>
+						<!-- /.footer__text -->
+					</div>
+					<!-- /.footer-item -->
+				</div>
+				<!-- /.col-sm-6col-md-3 -->
+
+				<div class="col-6 col-md-3">
+					<div class="footer-item">
+						<div class="footer-item__header">
+							Social
+						</div>
+						<!-- /.footer__header -->
+						<div class="footer-item__icons">
+							<i class="fab fa-facebook-f social-one"></i>
+							<i class="fab fa-instagram social"></i>
+						</div>
+						<!-- /.footer__icons -->
+						<div class="footer-item__icons">
+							<i class="fab fa-google-plus-g social"></i>
+							<i class="fab fa-pinterest-p social"></i>
+						</div>
+						<!-- /.footer__icons -->
+					</div>
+					<!-- /.footer-item -->
+				</div>
+				<!-- /.col-sm-6col-md-3 -->
+
+				<div class="col-6 col-md-3">
+					<div class="footer-item">
+						<div class="footer-item__header">
+							Mobile
+						</div>
+						<!-- /.footer__header -->
+						<div class="footer-item__img">
+							<img src="img/footer/android.png" alt="android">
+						</div>
+						<!-- /.footer__img -->
+						<div class="footer-item__img">
+							<img src="img/footer/iphone.png" alt="iphone">
+						</div>
+						<!-- /.footer__img -->
+					</div>
+					<!-- /.footer-item -->
+				</div>
+				<!-- /.col-sm-6col-md-3 -->
+
+			</div>
+			<!-- /.row -->
+
+			<div class="footer-copyright">
+				&copy; GetYourTour
+			</div>
+			<!-- /.footer-copyright -->
+
+		</div>
+		<!-- /.container -->
+	</footer>
+	<!-- /.footer -->
+
+
+	<!-- JQuery -->
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<!-- Smooth scroll lib -->
+	<script src="js/jquery.min.js"></script>
+
+	<script src="js/smoothscroll.js"></script>
+
+	<script src="js/mobilemenu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+.offers
+ padding-top: 50px
+ padding-bottom: 70px
+ &-item
+  height: 100%
+  outline: 2px solid $outline-color-light-gray
+  cursor: pointer
+  &:hover
+   outline: 5px solid $outline-color-light-gray
+  &__img-1
+   background: url(../img/offers/offer-1.jpg) center no-repeat
+   background-size: cover
+   padding-top: 160px
+  &__img-2
+   background: url(../img/offers/offer-2.jpg) center no-repeat
+   background-size: cover
+   padding-top: 160px
+  &__img-3
+   background: url(../img/offers/offer-3.jpg) center no-repeat
+   background-size: cover
+   padding-top: 160px
+  &__img-4
+   background: url(../img/offers/offer-4.jpg) center no-repeat
+   background-size: cover
+   padding-top: 160px
+  &__header
+   padding: 20px 15px
+   padding-bottom: 10px
+   font-size: 18px
+   font-weight: 700
+   color: $text-color-dark
+  &__destination
+   padding: 20px 15px
+   padding-bottom: 10px
+   font-size: 18px
+   font-weight: 700
+   color: $text-color-gray
+  &__info
+   padding: 20px 15px
+   display: flex
+   justify-content: space-between
+ &-button
+  margin-top: 40px
+  text-align: center
+  &__btn
+   padding: 10px 30px
+.rating
+.stars
+  &__out
+   position: relative
+   margin-right: 1px
+   color: $text-color-gray
+   z-index: 1
+  &__in
+   position: absolute
+   z-index: 2
+   color: $star-color-yellow
+   font-size: inherit
+   display: block
+   top: 0
+   left: 0
+   bottom: 0
+   overflow: hidden
+   width: 0
+.reviews
+ margin-top: 5px
+ margin-bottom: 0
+ font-size: 14px
+ font-weight: 400
+ color: $text-color-gray
+.price
+ margin-top: -5px 
+ &__text
+  font-size: 16px
+  font-weight: 700
+  text-align: right
+  color: $text-color-gray
+ &__sum
+  font-size: 26px
+  font-weight: 700
+  color: $text-color-dark-blue
+.col-outline
+ margin-bottom: 30px
